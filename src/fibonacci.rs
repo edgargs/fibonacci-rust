@@ -21,11 +21,11 @@ fn main() {
         let mut b = 1;
         for i in 0..up_to {
             let addition: u128 = a + b;
-            println!("{}",i);
+            //println!("{}",i);
             a = b;
             b = addition;
         }
         b
     }
-    println!("Result: {}", fib(x));
+    println!("Result with  Rust: {}", fib(x));
 }
